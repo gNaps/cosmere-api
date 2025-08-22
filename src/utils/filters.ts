@@ -1,5 +1,3 @@
-import qs from "qs";
-
 const operatorsMap: Record<string, string> = {
   $eq: "equals",
   $ne: "not",
@@ -15,73 +13,6 @@ const operatorsMap: Record<string, string> = {
 };
 
 type PrismaFilter = Record<string, any>;
-
-export function parseFilters(query: Record<string, any>): PrismaFilter {
-  if (!query.filters) return {};
-
-  const rawFilters =
-    typeof query.filters === "string" ? qs.parse(query.filters) : query.filters;
-
-  function traverse(obj: any): any {
-    console.log("Traversing object:", obj);
-    if (typeof obj !== "object" || obj === null) return obj;
-
-    const keys = Object.keys(obj);
-
-    // Caso array-like
-    if (keys.every((k) => /^\d+$/.test(k))) {
-      return keys.map((k) => traverse(obj[k]));
-    }
-
-    // Caso oggetto normale
-    const result: any = {};
-    for (const key of keys) {
-      const value = obj[key];
-
-      if (typeof value === "object" && value !== null) {
-        const subKeys = Object.keys(value);
-        console.log("Subkeys:", subKeys);
-
-        // Se è terminale [operatore][valore]
-        if (subKeys.length === 1) {
-          const op = subKeys[0];
-          const v = value[op];
-
-          // v può essere un oggetto {Empire: ""} → trasformiamo in stringa
-          if (
-            typeof v === "object" &&
-            Object.keys(v).length === 1 &&
-            v[Object.keys(v)[0]] === ""
-          ) {
-            console.log("v1", v);
-            // qs.parse converte [Empire] in { Empire: "" } oppure { "": "" }
-            result[key] = { [op.slice(1)]: Object.keys(v)[0] };
-          } else {
-            console.log("v2", v);
-            result[key] = { [op.slice(1)]: traverse(v) };
-          }
-        } else {
-          // non terminale, ricorsione
-          if (key.startsWith("$")) {
-            if (key === "$and" || key === "$or") {
-              result[key.slice(1).toUpperCase()] = traverse(value);
-            } else {
-              result[key.slice(1)] = traverse(value);
-            }
-          } else {
-            result[key] = traverse(value);
-          }
-        }
-      } else {
-        result[key] = value;
-      }
-    }
-
-    return result;
-  }
-
-  return traverse(rawFilters);
-}
 
 /**
  * Trasforma filtri con "dot notation" su relazioni in Prisma nested (some)
