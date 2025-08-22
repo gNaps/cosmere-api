@@ -1,0 +1,23 @@
+[
+  { "id": "bjendal", "name": "Bjendal" },
+  { "id": "canticle", "name": "Canticle" },
+  { "id": "dhatri", "name": "Dhatri" },
+  { "id": "first-of-the-sun", "name": "First of the Sun" },
+  { "id": "grand-apparatus", "name": "Grand Apparatus" },
+  { "id": "lumar", "name": "Lumar" },
+  { "id": "mythos", "name": "Mythos" },
+  { "id": "nalthis", "name": "Nalthis" },
+  { "id": "obrodai", "name": "Obrodai" },
+  { "id": "ashyn", "name": "Ashyn" },
+  { "id": "braize", "name": "Braize" },
+  { "id": "roshar", "name": "Roshar" },
+  { "id": "scadrial", "name": "Scadrial" },
+  { "id": "sel", "name": "Sel" },
+  { "id": "taldain", "name": "Taldain" },
+  { "id": "threnody", "name": "Threnody" },
+  { "id": "komashi", "name": "Komashi" },
+  { "id": "utol", "name": "UTol" },
+  { "id": "vax", "name": "Vax" },
+  { "id": "yolen", "name": "Yolen" },
+  { "id": "zidorna", "name": "Zidorna" }
+]

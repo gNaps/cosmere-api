@@ -1,0 +1,135 @@
+[
+  {
+    "id": "devotion",
+    "name": "Devotion",
+    "description": "Devotion is a Shard of Adonalsium, originally held by Aona. After the Shattering, she traveled to Sel with Dominion, where the two were later Splintered by Odium.",
+    "image": "https://uploads.coppermind.net/thumb/Devotion_by_Kyle_Pearson.jpg/400px-Devotion_by_Kyle_Pearson.jpg",
+    "imageCredit": "https://www.artstation.com/kpearson"
+  },
+  {
+    "id": "dominion",
+    "name": "Dominion",
+    "description": "Dominion is a Shard of Adonalsium once held by Skai. After the Shattering, she traveled to Sel with Devotion, where both were Splintered by Odium.",
+    "image": "https://uploads.coppermind.net/thumb/Dominion_by_ML_Malandrino.jpg/400px-Dominion_by_ML_Malandrino.jpg",
+    "imageCredit": "https://mlmillustration.com/"
+  },
+  {
+    "id": "preservation",
+    "name": "Preservation",
+    "description": "Preservation is a Shard of Adonalsium, one of the two located on Scadrial. Its original Vessel was Leras, but has since been held by Kelsier and Vin before Sazed took it and mixed it with Ruin, becoming Harmony. In the Terris religions Preservation is known as Terr, or \"to preserve\"; in Southern Scadrial, it's known as Frue and believed to be feminine. Preservation’s Investiture is typically associated with the color white.",
+    "image": "https://uploads.coppermind.net/thumb/Preservation.jpg/400px-Preservation.jpg",
+    "imageCredit": "https://www.artstation.com/kpearson"
+  },
+  {
+    "id": "ruin",
+    "name": "Ruin",
+    "description": "Ruin, also known as Herr in Southern Scadrial, is one of the Shards of Adonalsium. Its original Vessel was Ati, but it's currently held by Sazed alongside Preservation, forming Harmony. Ruin's Investiture is typically associated with the color black.",
+    "image": "https://uploads.coppermind.net/thumb/Ruin.jpg/400px-Ruin.jpg",
+    "imageCredit": "https://www.artstation.com/kpearson"
+  },
+  {
+    "id": "odium",
+    "name": "Odium",
+    "description": "Odium is the Shard of Adonalsium originally held by Rayse, and currently held by Taravangian. It is currently held together with Honor in the Shard of Retribution. Unlike most other Shards, which typically pick a single world and settle there, Odium has been traveling freely throughout the cosmere for a long period of time, deliberately refusing to Invest himself anywhere.",
+    "image": "https://uploads.coppermind.net/thumb/Odium_by_Ganna_Pazyniuk.jpg/400px-Odium_by_Ganna_Pazyniuk.jpg",
+    "imageCredit": "https://www.deviantart.com/anndr"
+  },
+  {
+    "id": "cultivation",
+    "name": "Cultivation",
+    "description": "Cultivation is one of the sixteen Shards of Adonalsium. Her Vessel is a dragon named Koravellium Avast, though Hoid has referred to her as Slammer. Cultivation resides on Roshar, having originally come there with Honor before Odium's arrival. Cultivation's Investiture is typically associated with the color green.",
+    "image": "https://uploads.coppermind.net/thumb/Cultivation_by_Ari_Ibarra.jpeg/400px-Cultivation_by_Ari_Ibarra.jpeg",
+    "imageCredit": "https://www.ariirf.com/"
+  },
+  {
+    "id": "honor",
+    "name": "Honor",
+    "description": "Honor is one of the sixteen Shards of Adonalsium, and one of the three, alongside Cultivation and Odium, who settled in the Rosharan system. The original Vessel of Honor was called Tanavast. Following his death at the hands of Odium, Honor's power slowly formed a consciousness. Honor’s Investiture is typically associated with a blue-white coloration.",
+    "image": "https://uploads.coppermind.net/thumb/Honor_Endsheet.jpeg/400px-Honor_Endsheet.jpeg",
+    "imageCredit": "http://www.donatoart.com/"
+  },
+  {
+    "id": "endowment",
+    "name": "endowment",
+    "description": "Endowment is one of the sixteen Shards of Adonalsium. The Shard's Vessel is Edgli. She is located on Nalthis, and is the only Shard present there.",
+    "image": "https://uploads.coppermind.net/thumb/Endowment_by_Elisgardor.jpg/400px-Endowment_by_Elisgardor.jpg",
+    "imageCredit": "https://www.instagram.com/elisgardor"
+  },
+  {
+    "id": "autonomy",
+    "name": "Autonomy",
+    "description": "Autonomy is a Shard of Adonalsium, currently held by Bavadin. It's presently located on Taldain, Invested in at least one of the local suns, AisDa, though it possesses a number of avatars in other worlds throughout the cosmere.",
+    "image": "https://uploads.coppermind.net/thumb/Autonomy_Playing_Card.png/400px-Autonomy_Playing_Card.png",
+    "imageCredit": "http://www.inkthinker.net/"
+  },
+  {
+    "id": "ambition",
+    "name": "Ambition",
+    "description": "Ambition is a Shard of Adonalsium. The Vessel of Ambition was Uli Da, but she was killed shortly after the Shattering. She at one point visited the Threnodite system. It is uncertain whether or not Ambition once had a system of Investiture associated with her.",
+    "image": "https://uploads.coppermind.net/thumb/Ambition_by_ML_Malandrino.jpg/400px-Ambition_by_ML_Malandrino.jpg",
+    "imageCredit": "https://mlmillustration.com/"
+  },
+  {
+    "id": "invention",
+    "name": "Invention",
+    "description": "Invention is a Shard of Adonalsium that has not been Splintered and whose original Vessel is Chan Ko Sar. The Vessel may be one of the scholars Hoid questioned about talent, who answered that the highest talent is the invention of marvelous devices. Starling believes that the planets created by Invention are more technologically advanced than Scadrial.",
+    "image": "",
+    "imageCredit": ""
+  },
+  {
+    "id": "mercy",
+    "name": "Mercy",
+    "description": "Mercy is a Shard of Adonalsium that has not been Splintered and whose Vessel is unknown.",
+    "image": "https://coppermind.net/wiki/File:Mercy_by_zoethatcher_art.jpg",
+    "imageCredit": "https://www.instagram.com/zoethatcher_art"
+  },
+  {
+    "id": "valor",
+    "name": "Valor",
+    "description": "Valor is a Shard of Adonalsium that has not been Splintered and whose original Vessel is the dragon god Medelantorius.",
+    "image": "",
+    "imageCredit": ""
+  },
+  {
+    "id": "whimsy",
+    "name": "Whimsy",
+    "description": "Whimsy is a Shard of Adonalsium that has not been Splintered and whose Vessel is unknown.",
+    "image": "",
+    "imageCredit": ""
+  },
+  {
+    "id": "virtuosity",
+    "name": "Virtuosity",
+    "description": "Virtuosity is a Shard of Adonalsium who Splintered herself. The Vessel was an unknown female, she is possibly one of the scholars Hoid questioned about talent.",
+    "image": "https://uploads.coppermind.net/thumb/Virtuosity_by_Gar_Leyva.jpg/1200px-Virtuosity_by_Gar_Leyva.jpg",
+    "imageCredit": "https://www.instagram.com/gar_leyva"
+  },
+  {
+    "id": "reason",
+    "name": "Reason",
+    "description": "Reason is one of the sixteen Shards of Adonalsium. The original Vessel of the Shard is Euridrius.",
+    "image": "",
+    "imageCredit": ""
+  },
+  {
+    "id": "harmony",
+    "name": "Harmony",
+    "description": "Harmony is the name taken by Sazed after the Final Ascension and his acquisition of the Shards Ruin and Preservation as he felt it fit the Shard. With the opposing forces of Preservation and Ruin both Invested within him, balance and Harmony is achieved. Three hundred years post-Catacendre the name is in widespread use by the inhabitants of the Elendel Basin and the surrounding Roughs.",
+    "image": "https://uploads.coppermind.net/Harmony_by_Kelley_Harris.jpg",
+    "imageCredit": "https://www.instagram.com/krharts"
+  },
+  {
+    "id": "retribution",
+    "name": "Retribution",
+    "description": "Retribution is the name taken by Taravangian after the Contest of champions and his merging of the Shards Odium and Honor.",
+    "image": "",
+    "imageCredit": ""
+  },
+  {
+    "id": "dor",
+    "name": "Dor",
+    "description": "The Dor is the source of Investiture on Sel, The Dor powers all Invested Arts on Sel, including AonDor, ChayShan, Forgery, Dakhor, and Bloodsealing.",
+    "image": "",
+    "imageCredit": ""
+  }
+]

@@ -1,0 +1,123 @@
+datasource db {
+    provider = "postgresql"
+    url      = env("DATABASE_URL")
+}
+
+generator client {
+    provider = "prisma-client-js"
+}
+
+/// ------------------
+/// ENTITIES
+/// ------------------
+
+model Series {
+    id          String         @id
+    title       String
+    image       String?
+    imageCredit String?
+    planets     SeriesPlanet[]
+    books       Book[]
+}
+
+model Planet {
+    id           String           @id
+    name         String
+    series       SeriesPlanet[]
+    characters   Character[]
+    fragments    PlanetFragment[]
+    investitures Investiture[]
+}
+
+model Book {
+    id          String          @id
+    title       String
+    seriesId    String
+    image       String?
+    imageCredit String?
+    releaseDate DateTime?
+    summary     String?
+    series      Series          @relation(fields: [seriesId], references: [id])
+    characters  BookCharacter[]
+}
+
+model Character {
+    id           String                 @id
+    name         String
+    description  String?
+    image        String?
+    imageCredit  String?
+    planetId     String
+    planet       Planet                 @relation(fields: [planetId], references: [id])
+    books        BookCharacter[]
+    investitures CharacterInvestiture[]
+}
+
+model Fragment {
+    id           String           @id
+    name         String
+    description  String?
+    image        String?
+    imageCredit  String?
+    planets      PlanetFragment[]
+    investitures Investiture[]
+}
+
+model Investiture {
+    id          String                 @id
+    name        String
+    description String?
+    fragmentId  String?
+    fragment    Fragment?              @relation(fields: [fragmentId], references: [id])
+    planetId    String?
+    planet      Planet?                @relation(fields: [planetId], references: [id])
+    characters  CharacterInvestiture[]
+}
+
+/// ------------------
+/// MANY-TO-MANY TABLES
+/// ------------------
+
+model SeriesPlanet {
+    id       String @id @default(uuid())
+    seriesId String
+    planetId String
+
+    series Series @relation(fields: [seriesId], references: [id])
+    planet Planet @relation(fields: [planetId], references: [id])
+
+    @@unique([seriesId, planetId])
+}
+
+model BookCharacter {
+    id          String @id @default(uuid())
+    bookId      String
+    characterId String
+
+    book      Book      @relation(fields: [bookId], references: [id])
+    character Character @relation(fields: [characterId], references: [id])
+
+    @@unique([bookId, characterId])
+}
+
+model PlanetFragment {
+    id         String @id @default(uuid())
+    planetId   String
+    fragmentId String
+
+    planet   Planet   @relation(fields: [planetId], references: [id])
+    fragment Fragment @relation(fields: [fragmentId], references: [id])
+
+    @@unique([planetId, fragmentId])
+}
+
+model CharacterInvestiture {
+    id            String @id @default(uuid())
+    characterId   String
+    investitureId String
+
+    character   Character   @relation(fields: [characterId], references: [id])
+    investiture Investiture @relation(fields: [investitureId], references: [id])
+
+    @@unique([characterId, investitureId])
+}

@@ -1,0 +1,17 @@
+[
+  { "seriesId": "mistborn", "planetId": "scadrial" },
+  { "seriesId": "stormlight-archive", "planetId": "roshar" },
+  { "seriesId": "stormlight-archive", "planetId": "ashyn" },
+  { "seriesId": "stormlight-archive", "planetId": "braize" },
+  { "seriesId": "elantris", "planetId": "sel" },
+  { "seriesId": "white-sand", "planetId": "taldain" },
+  { "seriesId": "warbreaker", "planetId": "nalthis" },
+  { "seriesId": "sixth-of-the-dusk", "planetId": "first-of-the-sun" },
+  { "seriesId": "tress-of-the-emerald-sea", "planetId": "lumar" },
+  { "seriesId": "dragonsteel", "planetId": "yolen" },
+  { "seriesId": "isles-of-the-emberdark", "planetId": "first-of-the-sun" },
+  { "seriesId": "shadows-for-silence", "planetId": "threnody" },
+  { "seriesId": "yumi-and-the-nightmare-painter", "planetId": "utol" },
+  { "seriesId": "yumi-and-the-nightmare-painter", "planetId": "komashi" },
+  { "seriesId": "the-sunlit-man", "planetId": "canticle" }
+]

@@ -1,0 +1,32 @@
+[
+  { "id": "mistborn", "title": "Mistborn" },
+  { "id": "the-sunlit-man", "title": "The Sunlit Man" },
+  {
+    "id": "sixth-of-the-dusk",
+    "title": "Sixth of the Dusk"
+  },
+  {
+    "id": "tress-of-the-emerald-sea",
+    "title": "Tress of the Emerald Sea"
+  },
+  { "id": "warbreaker", "title": "Warbreaker" },
+  {
+    "id": "stormlight-archive",
+    "title": "The Stormlight Archive"
+  },
+  { "id": "elantris", "title": "Elantris" },
+  { "id": "white-sand", "title": "White Sand" },
+  {
+    "id": "shadows-for-silence",
+    "title": "Shadows for Silence in the Forests of Hell"
+  },
+  {
+    "id": "yumi-and-the-nightmare-painter",
+    "title": "Yumi and the Nightmare Painter"
+  },
+  { "id": "dragonsteel", "title": "Dragonsteel" },
+  {
+    "id": "isles-of-the-emberdark",
+    "title": "Isles of the Emberdark"
+  }
+]
