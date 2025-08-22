@@ -1,7 +1,6 @@
-import rateLimit from "@fastify/rate-limit";
-import { Redis } from "@upstash/redis";
 import prisma from "./plugins/prisma";
 import routes from "./routes";
+import { rateLimitMiddleware } from "./utils/rateLimit";
 
 const server = (
   app: any, // FastifyInstance,
@@ -14,17 +13,7 @@ const server = (
   app.register(routes);
 
   if (process.env.NODE_ENV !== "development") {
-    const redis = new Redis({
-      url: process.env.UPSTASH_REDIS_REST_URL!,
-      token: process.env.UPSTASH_REDIS_REST_TOKEN!,
-    });
-
-    app.register(rateLimit, {
-      max: 1000,
-      timeWindow: "1d",
-      redis,
-      keyGenerator: (req: any) => req.ip,
-    });
+    app.addHook("preHandler", rateLimitMiddleware);
   }
 
   done();
