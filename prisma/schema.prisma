@@ -21,11 +21,11 @@ model Series {
 }
 
 model Planet {
-    id           String           @id
+    id           String         @id
     name         String
     series       SeriesPlanet[]
     characters   Character[]
-    fragments    PlanetFragment[]
+    shards       PlanetShard[]
     investitures Investiture[]
 }
 
@@ -53,25 +53,24 @@ model Character {
     investitures CharacterInvestiture[]
 }
 
-model Fragment {
-    id           String           @id
+model Shard {
+    id           String             @id
     name         String
     description  String?
     image        String?
     imageCredit  String?
-    planets      PlanetFragment[]
-    investitures Investiture[]
+    planets      PlanetShard[]
+    investitures ShardInvestiture[]
 }
 
 model Investiture {
     id          String                 @id
     name        String
     description String?
-    fragmentId  String?
-    fragment    Fragment?              @relation(fields: [fragmentId], references: [id])
     planetId    String?
     planet      Planet?                @relation(fields: [planetId], references: [id])
     characters  CharacterInvestiture[]
+    shards      ShardInvestiture[]
 }
 
 /// ------------------
@@ -100,15 +99,15 @@ model BookCharacter {
     @@unique([bookId, characterId])
 }
 
-model PlanetFragment {
-    id         String @id @default(uuid())
-    planetId   String
-    fragmentId String
+model PlanetShard {
+    id       String @id @default(uuid())
+    planetId String
+    shardId  String
 
-    planet   Planet   @relation(fields: [planetId], references: [id])
-    fragment Fragment @relation(fields: [fragmentId], references: [id])
+    planet Planet @relation(fields: [planetId], references: [id])
+    shard  Shard  @relation(fields: [shardId], references: [id])
 
-    @@unique([planetId, fragmentId])
+    @@unique([planetId, shardId])
 }
 
 model CharacterInvestiture {
@@ -120,4 +119,15 @@ model CharacterInvestiture {
     investiture Investiture @relation(fields: [investitureId], references: [id])
 
     @@unique([characterId, investitureId])
+}
+
+model ShardInvestiture {
+    id            String @id @default(uuid())
+    investitureId String
+    shardId       String
+
+    investiture Investiture @relation(fields: [investitureId], references: [id])
+    shard       Shard       @relation(fields: [shardId], references: [id])
+
+    @@unique([investitureId, shardId])
 }

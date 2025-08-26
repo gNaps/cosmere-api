@@ -1,0 +1,106 @@
+[
+  {
+    "investitureId": "aondor",
+    "shardId": "devotion"
+  },
+  {
+    "investitureId": "dakhor",
+    "shardId": "devotion"
+  },
+  {
+    "investitureId": "chayshan",
+    "shardId": "devotion"
+  },
+  {
+    "investitureId": "forgery",
+    "shardId": "devotion"
+  },
+  {
+    "investitureId": "bloodsealing",
+    "shardId": "devotion"
+  },
+  {
+    "investitureId": "aondor",
+    "shardId": "dominion"
+  },
+  {
+    "investitureId": "dakhor",
+    "shardId": "dominion"
+  },
+  {
+    "investitureId": "chayshan",
+    "shardId": "dominion"
+  },
+  {
+    "investitureId": "forgery",
+    "shardId": "dominion"
+  },
+  {
+    "investitureId": "bloodsealing",
+    "shardId": "dominion"
+  },
+  {
+    "investitureId": "aondor",
+    "shardId": "dor"
+  },
+  {
+    "investitureId": "dakhor",
+    "shardId": "dor"
+  },
+  {
+    "investitureId": "chayshan",
+    "shardId": "dor"
+  },
+  {
+    "investitureId": "forgery",
+    "shardId": "dor"
+  },
+  {
+    "investitureId": "bloodsealing",
+    "shardId": "dor"
+  },
+  {
+    "investitureId": "allomancy",
+    "shardId": "preservation"
+  },
+  {
+    "investitureId": "feruchemy",
+    "shardId": "preservation"
+  },
+  {
+    "investitureId": "feruchemy",
+    "shardId": "ruin"
+  },
+  {
+    "investitureId": "hemalurgy",
+    "shardId": "ruin"
+  },
+  {
+    "investitureId": "voidbinding",
+    "shardId": "odium"
+  },
+  {
+    "investitureId": "surgebinding",
+    "shardId": "honor"
+  },
+  {
+    "investitureId": "surgebinding",
+    "shardId": "cultivation"
+  },
+  {
+    "investitureId": "old-magic",
+    "shardId": "cultivation"
+  },
+  {
+    "investitureId": "awakening",
+    "shardId": "endowment"
+  },
+  {
+    "investitureId": "sand-mastery",
+    "shardId": "autonomy"
+  },
+  {
+    "investitureId": "starmark",
+    "shardId": "autonomy"
+  }
+]

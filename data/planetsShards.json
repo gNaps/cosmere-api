@@ -1,0 +1,16 @@
+[
+  { "planetId": "sel", "shardId": "devotion" },
+  { "planetId": "sel", "shardId": "dominion" },
+  { "planetId": "scadrial", "shardId": "preservation" },
+  { "planetId": "scadrial", "shardId": "ruin" },
+  { "planetId": "roshar", "shardId": "honor" },
+  { "planetId": "roshar", "shardId": "odium" },
+  { "planetId": "roshar", "shardId": "cultivation" },
+  { "planetId": "nalthis", "shardId": "endowment" },
+  { "planetId": "taldain", "shardId": "autonomy" },
+  { "planetId": "threnody", "shardId": "ambition" },
+  { "planetId": "komashi", "shardId": "virtuosity" },
+  { "planetId": "scadrial", "shardId": "harmony" },
+  { "planetId": "roshar", "shardId": "retribution" },
+  { "planetId": "sel", "shardId": "dor" }
+]

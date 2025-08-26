@@ -1,0 +1,86 @@
+[
+  {
+    "id": "aondor",
+    "name": "AonDor",
+    "description": "Aons are drawn by Elantrians using their intent, with lines that draw energy from the Dor and must match the landscape. They can be drawn with fingers, quills, sticks, or even crafted from materials like stone, wire, or Light. Completed Aons can produce magical effects, such as in amulets or other objects. If an Aon is left unfinished, it disappears without effect.",
+    "planetId": "sel"
+  },
+  {
+    "id": "dakhor",
+    "name": "Dakhor",
+    "description": "The Dakhor system grants unique powers to its monks. It provides superhuman strength and speed, with nearly indestructible bones, and in some cases more costly abilities such as teleportation through human sacrifice. It can also alter physical appearance, negate Elantrian Aons, and offer resistance to Dor attacks, though this requires many lives as a price. Users tend to live longer than normal humans, but their powers remain tied to bones and sacrifices.",
+    "planetId": "sel"
+  },
+  {
+    "id": "chayshan",
+    "name": "ChayShan",
+    "description": "ChayShan is a meditative martial art that focuses a warrior’s mind and body, often drawing power from the Dor. Practitioners move in specific circular patterns, gradually increasing speed while keeping hands and legs in constant motion. The movements resemble a dance, with muscles tensed as if resisting an unseen force, and a faint glow appears when accessing the Dor. Losing focus causes the practitioner to lose access to the Dor and forces them to restart.",
+    "planetId": "sel"
+  },
+  {
+    "id": "forgery",
+    "name": "Forgery",
+    "description": "Forgery, like AonDor and Dakhor, involves shaping a specific form to produce an extraordinary effect. It typically requires carving a stamp, applying ink, and marking the target object or person. Successful Forgery demands extensive knowledge of the target’s composition and history to ensure lasting effects. Forgers must therefore be both skilled artisans and knowledgeable scholars.",
+    "planetId": "sel"
+  },
+  {
+    "id": "bloodsealing",
+    "name": "Bloodsealing",
+    "description": "Bloodsealers must be Dzhamarian and use a stamp along with fresh human blood to access the Dor. The Bloodseals are typically made from bones, though other materials are possible, and the type or source of bone can affect the seal. The blood must be harvested within the past twenty-four hours, as stale blood is ineffective. Stamps lose power gradually, dimming, pulsing, and eventually vanishing.",
+    "planetId": "sel"
+  },
+  {
+    "id": "allomancy",
+    "name": "Allomancy",
+    "description": "Allomancy is a magic system fueled by the Shard Preservation, channeled through metals that are burned rather than by the Allomancer’s own body. Each metal acts as a conduit to Preservation, granting specific abilities when consumed, with the base sixteen metals being the primary means of accessing this power. Metals are usually ingested as flakes in liquid, producing a warm sensation in the stomach, and can be burned faster through “flaring” for increased effect at the cost of faster depletion. Allomancers can experience side effects from retaining metals too long, can combine Allomancy with Feruchemy for advanced effects like faster-than-light travel, and can burn metals in the Cognitive Realm, though some alloys or Invested metals may have no effect or even harm the user.",
+    "planetId": "scadrial"
+  },
+  {
+    "id": "feruchemy",
+    "name": "Feruchemy",
+    "description": "Feruchemy is an end-neutral magic that lets a user store and later retrieve attributes in metal, called metalminds, without permanently gaining or losing Investiture. The type of metal determines which attribute can be stored, and the amount stored scales with the metal’s size, though not linearly. Feruchemists can tap their stored attributes at varying rates, with faster tapping causing some loss, and only the original user can normally access their stored power. Alloy composition affects storage efficiency, and while others can sense the presence of a metalmind, they cannot use its Investiture unless they can manipulate that attribute themselves.",
+    "planetId": "scadrial"
+  },
+  {
+    "id": "hemalurgy",
+    "name": "Hemalurgy",
+    "description": "Hemalurgy is the transfer of attributes like Allomancy or Feruchemy by stealing fragments of a person’s spiritweb and embedding them into another via a metallic spike. The spike must contact moving blood at a specific bind point to charge and transfer the ability, which is then integrated into the recipient’s spiritual DNA. This process creates “holes” in the donor’s spiritweb, potentially allowing control by Shards or powerful users. Hemalurgy can function anywhere in the Cosmere, works on animals but not plants, and strangely, Hemalurgic spikes do not cause infections.",
+    "planetId": "scadrial"
+  },
+  {
+    "id": "voidbinding",
+    "name": "Voidbinding",
+    "description": "Very little is known about Voidbinding. It appears to have ten levels, but their exact meaning is unclear, and Renarin’s future-sight may be linked to it, though imperfect and possibly fueled by Stormlight. Glyphs on the Voidbinding chart resemble Surgebinding glyphs but with rotational symmetry, suggesting variant or alternative expressions of Surges. Certain Regals, like Nightform, are known to possess Voidbinding abilities such as seeing the future.",
+    "planetId": "roshar"
+  },
+  {
+    "id": "surgebinding",
+    "name": "Surgebinding",
+    "description": "Surgebinding is a magical ability on Roshar that humans and singers can gain through various means, including Honorblades, Nahel bonds with spren, direct blessings, or being Fused. The Nahel bond links a human to a spren, granting access to two Surges, which grow stronger as the bond strengthens through oaths and aligned actions, allowing manifestation of Shardblades and enhanced abilities. Surgebinders use Stormlight (or Voidlight for the Fused) as fuel, granting superhuman strength, speed, endurance, and rapid healing, but the power leaks over time if not replenished. Misaligned actions can weaken or break the bond, potentially destroying the spren and causing the Surgebinder to lose their abilities.",
+    "planetId": "roshar"
+  },
+  {
+    "id": "old-magic",
+    "name": "Old Magic",
+    "description": "The Old Magic grants boons and curses through the Nightwatcher, who resides in a western valley and bestows gifts she deems appropriate. Anyone may request a single boon, which can include wealth, skill, fame, or even physical alterations, while a corresponding curse is unavoidable and unpredictable. Cultivation can also grant her own calculated boons and curses, sometimes using the Old Magic to obscure her interference. Boons and curses persist for life, affect any sapient species, and are often inscrutable, with some curses being disproportionately severe relative to the boon.",
+    "planetId": "roshar"
+  },
+  {
+    "id": "awakening",
+    "name": "Awakening",
+    "description": "Awakening on Nalthis is the use of Investiture, color, BioChromatic Breath, and a Command to animate objects into sentient BioChromatic entities. The process requires the Awakener to release Breath into an object while in contact with a color source and mentally visualizing the Command. If done correctly, the object becomes Awakened and follows the Command; if not, it may awaken without effect. Awakened objects can interact with Connection, Intent, and Identity.",
+    "planetId": "nalthis"
+  },
+  {
+    "id": "sand-mastery",
+    "name": "Sand Mastery",
+    "description": "Sand mastery on Taldain requires initiation by an existing sand master, testing a candidate's ability to manipulate white sand ribbons using water and Investiture. White sand, glowing when used, must be recharged by sunlight or other Invested sources, and sand masters draw water from their bodies to control it, risking dehydration and overmastery. Masters can manipulate multiple sand ribbons for flight, shields, attack, or construction, with precision and power increasing with practice, but colliding ribbons or hitting from the side can collapse them. Overmastery occurs when too much water is used, temporarily disabling powers and risking death, while overburning is a final extreme exertion, and some creatures with terken shells are immune to sand mastery.",
+    "planetId": "taldain"
+  },
+  {
+    "id": "starmark",
+    "name": "Starmark",
+    "description": "Starmarks are a rare magical ability whose acquisition is unknown, but new users must be shown by an existing Starcarved, possibly through a testing process similar to sand mastery. The magic works through tattoos, which can create effects like razor-sharp blades or bullet-resistant shields, and Starcarved are recharged weekly by light and Investiture from Ridos. The tattoos come in different colors, and their effects are less visually noticeable than sand mastery. Starmarks do not function or appear on Dayside.",
+    "planetId": "taldain"
+  }
+]

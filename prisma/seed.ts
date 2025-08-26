@@ -26,7 +26,9 @@ async function main() {
   await prisma.book.deleteMany();
   await prisma.series.deleteMany();
   await prisma.planet.deleteMany();
-  await prisma.fragment.deleteMany();
+  await prisma.shard.deleteMany();
+  await prisma.investiture.deleteMany();
+  await prisma.shardInvestiture.deleteMany();
 
   // Inseriamo i pianeti
   await prisma.planet.createMany({
@@ -55,10 +57,26 @@ async function main() {
   }
 
   // Inseriamo i frammenti
-  if (data.fragments) {
-    await prisma.fragment.createMany({
-      data: data.fragments,
+  if (data.shards) {
+    await prisma.shard.createMany({
+      data: data.shards,
     });
+  }
+
+  // Inseriamo le investiture
+  if (data.investitures) {
+    await prisma.investiture.createMany({
+      data: data.investitures,
+    });
+  }
+
+  // Inseriamo la tabella ponte ShardInvestiture
+  if (data.shardInvestitures) {
+    for (const si of data.shardInvestitures) {
+      await prisma.shardInvestiture.create({
+        data: si,
+      });
+    }
   }
 
   console.log("Seed completato!");
